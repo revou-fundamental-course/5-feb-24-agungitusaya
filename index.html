@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konverter Celcius & Fahrenheit</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <header id="navigation-bar">
+        <h1 id="logo">RevoU Fundamental Course</h1>
+    </header>
+    <div id="section">
+        <h2>KONVERSI SUHU</h2>
+        <span>
+        <p>Masukkan suhu Celcius (°C) yang ingin dikonversi ke kotak yang berada di bawah, kemudian klik tombol Konversi untuk mendapatkan hasil konversi suhu ke dalam bentuk Fahreinheit (°F)</p>
+        </span>
+    </div>
+    <div class="container">
+        <h2>Konverter Celcius & Fahrenheit</h2>
+        <div id="celsius-container" class="input-container">
+            <label for="celsius">Masukkan suhu Celcius:</label>
+            <input type="number" id="celsius" onkeyup="convert()">
+        </div>
+        <div class="button-container">
+            <button onclick="convert()">Konversi</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="reverse()">Reverse</button>
+        </div>
+        <div id="fahrenheit-container" class="output-container">
+            <label for="result-fahrenheit">Suhu Fahrenheit:</label>
+            <span id="result-fahrenheit"></span>
+        </div>
+        <div id="article">
+            <h2>Rumus Konversi Celcius ke Fahreinheit ataupun sebaliknya:</h2>
+            <p>Fahrenheit = (Celcius x 9/5) + 32</p>
+            <p>Celcius = (Fahreinheit - 32) x 5/9</p>
+    </div>
+  </div>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

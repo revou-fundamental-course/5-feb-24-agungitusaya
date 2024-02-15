@@ -1,0 +1,99 @@
+#navigation-bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #032539;
+    background-color: #fa991c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+}
+
+#logo {
+    height: min-content;
+    margin-top: 50;
+}
+
+#section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #result-celsius, #result-fahrenheit {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 0px;
+  }
+  
+  button {
+    padding: 5px 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90px;
+  }
+
+#article {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
